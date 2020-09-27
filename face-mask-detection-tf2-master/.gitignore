@@ -1,0 +1,24 @@
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.idea
+__pycache__
+
+log*/
+*h5
+!/checkpoints/weights_epoch_100.h5
+*.txt
+
+/Maskdata/Annotations/*.xml
+/Maskdata/JPEGImages/*.jpg
+
+!/Maskdata/**/*.txt
+mAP/**/
+numpy*.py
+dataset/*.tfrecord
+dataset/*.txt
+dataset/split*.py
+dataset/xml*.py
